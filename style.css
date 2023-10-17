@@ -1,57 +1,60 @@
+@charset "UTF-8";
+
 #bjlogo{
-    width: 160px;
-    margin-top: 25px;
-    margin-left: 35px;
+    width: 145px;
+    display: block;
+    margin: left;
+    padding: 24px;
 }
 
 body{
-    background-color: #e8f2e8;
+    background-color: #ecf0ec;
 }
 
 h1{
-    margin-left: 315px;
+    text-align: center;
     text-shadow: 1px 1px 2px #13293db0;
     color: #005724;
-    width: 75%;
-    font: bold 44px cursive;
+    font: bold 45px cursive;
+}
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 2px #13293db0;
+    color: #005724;
+    font: bold 31px cursive;
 }
 
-h2{
-    font: bold 24px cursive;
+h3{
+    text-align: center;
     text-shadow: 1px 1px 2px #364702;
     color: #005724;
+    font: bold 22px cursive;
 }
 
-p,li{
+p{
+    text-align: justify;
     font: normal 17px arial;
+}
+
+li{
+    text-shadow: 1px 1px 2px #525a61b0;
+    color: #003a18;
+    font: normal 17px cursive;
+}
+
+#par{
+    font: bold 17px arial;
     text-align: justify;
 }
 
-#cr, #sr, #esp{
+#container1, #container2{
     background-color: #73912163;
     border-radius: 19px;
     margin: auto;
     padding: 20px;
     width: 63%;
-    box-shadow: 2px 2px 2px rgb(109, 109, 109);
 }
 
 #plan1{
     margin-left: 30px;
-}
-
-#print-sol{
-    width: 80%;
-    margin: auto;
-    display: block;
-}
-#plan1{
-    width: 50%;
-    margin: auto;
-    display: block;
-}
-#plan2{
-    width: 61%;
-    margin: auto;
-    display: block;
 }
