@@ -42,11 +42,6 @@ li{
     font: normal 17px cursive;
 }
 
-#par{
-    font: bold 17px arial;
-    text-align: justify;
-}
-
 #container1, #container2{
     background-color: #73912163;
     border-radius: 19px;
@@ -56,5 +51,19 @@ li{
 }
 
 #plan1{
-    margin-left: 30px;
+    display: block;
+    margin: auto;
+    width: 52%;
+}
+
+#plan2{
+    display: block;
+    margin: auto;
+    width: 63%;
+}
+
+#bloco1{
+    display: flex;
+    align-items: center;
+    text-align: justify;
 }
